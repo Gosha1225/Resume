@@ -1,0 +1,6 @@
+.root {
+    display: flex;
+    color: #dedede;
+    gap: 16px;
+    overflow-x: hidden;
+}

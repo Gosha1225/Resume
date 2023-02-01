@@ -1,0 +1,44 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 24px;
+}
+.aditiveLogo{
+    width: 60px;
+    height: 20px;
+}
+.digistepLogo{
+    width: 30px;
+    height: 30px;
+}
+.content {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.subTitle {
+    display: flex;
+    align-items: end;
+    gap:20px
+}
+.subTitle span{
+   font-size: 16px;
+}
+.subTitle h2{
+   font-size: 20px;
+}
+.jobInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.subTitle img {
+    align-self: center;
+}
+
+

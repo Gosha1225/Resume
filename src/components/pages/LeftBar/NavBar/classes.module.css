@@ -1,0 +1,79 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.1);
+    gap: 25px;
+    padding-bottom: 50px;
+}
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 25px;
+}
+
+.root a {
+    cursor: pointer;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    color: #dedede;
+    text-decoration: none;
+    gap: 20px;
+    padding: 3px 14px;
+}
+
+.root a svg {
+    stroke: #dedede;
+    width: 35px;
+    height: 35px;
+    fill: #dedede;
+}
+
+.root a:hover {
+    background: #dedede;
+    border-radius: 8px;
+    animation: steam 3s ease-in-out infinite;
+}
+.active{
+    background: #dedede;
+    border-radius: 8px;
+    animation: steam 3s ease-in-out infinite;
+}
+
+@keyframes steam {
+    0% {
+        background-color: #fb0094;
+    }
+    20 % {
+        background-color: #b800fb;
+    }
+    60% {
+        background-color: #6a00ff;
+    }
+    100% {
+        background-color:  #fb0094;
+    }
+}
+.link {
+    text-align: center;
+}
+.link > a {
+    text-decoration: none;
+    color: #dedede;
+    border: 2px #dedede solid;
+    padding: 16px;
+    background-color: rgba(251, 0, 148, 0.05);
+}
+.link > a:visited{
+    text-decoration: none;
+}
+
+.link > a:active {
+    border: 2px #fb0094 solid;
+    color: #fb0094;
+}
+
+
+
